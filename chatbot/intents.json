@@ -1,0 +1,1554 @@
+{
+  "intents": [
+    {
+      "tag": "blockchain_intro",
+      "patterns": [
+        "What is blockchain?",
+        "How does blockchain work?",
+        "Explain blockchain technology.",
+        "What are the basics of blockchain?",
+        "can you tell me what is blockchain?"
+      ],
+      "responses": [
+        "Blockchain is a decentralized, distributed ledger technology that enables secure and transparent record-keeping of transactions across a network of computers. In a blockchain, transactions are grouped into blocks, which are then linked together in a chronological and immutable chain. Each block contains a cryptographic hash of the previous block, along with the transaction data.",
+        "Blockchain is a decentralized, distributed ledger technology that records transactions across a network of computers.",
+        "Blockchain works by recording transactions in blocks that are linked together in a chain. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data.",
+        "Blockchain technology allows for secure, transparent, and tamper-proof recording of transactions.",
+        "The basics of blockchain include decentralization, transparency, immutability, and security."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "decentralisation_intro",
+      "patterns": [
+        "what do you mean by decentralized?",
+        "What is decentralisation?",
+        "How does decentralisation work?",
+        "Explain decentralisation.",
+        "What are the basics of decentralisation?",
+        "Can you tell me what is decentralisation?"
+      ],
+      "responses": [
+        "Decentralisation is the process of distributing or dispersing functions, powers, people, or things away from a central location or authority. In the context of technology and governance, decentralisation refers to the distribution of control and decision-making across a network, rather than relying on a single central authority.",
+        "Decentralisation works by distributing control and decision-making across a network of nodes, rather than relying on a single central authority.",
+        "Decentralisation is a concept that advocates for distributing power and decision-making away from a central authority to individuals or smaller entities.",
+        "The basics of decentralisation include distributing functions, powers, or control away from a central authority, enabling greater autonomy and resilience.",
+        "Decentralisation is a key principle in blockchain technology, where transactions are validated and recorded by a network of nodes instead of a central authority."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_security",
+      "patterns": [
+        "How secure is blockchain?",
+        "Is blockchain technology secure?",
+        "What security measures does blockchain use?",
+        "Can blockchain be hacked?"
+      ],
+      "responses": [
+        "Blockchain is considered secure due to its decentralized and cryptographic nature.",
+        "Blockchain uses cryptographic techniques such as hashing and digital signatures to ensure security.",
+        "Blockchain's security measures include decentralization, consensus mechanisms, cryptographic hashing, and digital signatures.",
+        "While no system is completely immune to hacking, blockchain's decentralized and cryptographic design makes it highly secure."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_uses",
+      "patterns": [
+        "What are the uses of blockchain?",
+        "How is blockchain used?",
+        "Examples of blockchain applications",
+        "Blockchain applications in real life"
+      ],
+      "responses": [
+        "Blockchain is used in various industries such as finance, supply chain, healthcare, voting, and more.",
+        "Examples of blockchain applications include cryptocurrency, smart contracts, supply chain tracking, and identity management.",
+        "Blockchain is used in real life for secure and transparent transactions, supply chain management, digital identity verification, and more."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_benefits",
+      "patterns": [
+        "What are the benefits of blockchain?",
+        "Advantages of blockchain technology",
+        "Why use blockchain?"
+      ],
+      "responses": [
+        "Blockchain offers benefits such as decentralization, transparency, security, efficiency, and cost-effectiveness.",
+        "Advantages of blockchain technology include improved security, reduced costs, increased transparency, and faster transactions.",
+        "Blockchain is used for its benefits of decentralization, transparency, security, and efficiency."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_concepts",
+      "patterns": [
+        "Explain blockchain nodes",
+        "What are blockchain nodes?",
+        "Define blockchain consensus",
+        "How does blockchain achieve consensus?"
+      ],
+      "responses": [
+        "Blockchain nodes are individual computers that participate in maintaining a blockchain network by storing, validating, and relaying transactions.",
+        "Blockchain consensus is the process by which nodes in a blockchain network agree on the validity of transactions and the order in which they are added to the blockchain.",
+        "Blockchain achieves consensus through various mechanisms such as Proof of Work (PoW), Proof of Stake (PoS), and others."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_technology",
+      "patterns": [
+        "What technology is used in blockchain?",
+        "How is blockchain technology implemented?",
+        "Blockchain technology components"
+      ],
+      "responses": [
+        "Blockchain technology uses cryptography, distributed systems, and consensus algorithms to create a secure and decentralized ledger.",
+        "Blockchain technology is implemented using cryptographic hashing, distributed storage, consensus mechanisms, and smart contracts.",
+        "Components of blockchain technology include cryptographic hashing, distributed storage, consensus algorithms, and smart contracts."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_future",
+      "patterns": [
+        "What is the future of blockchain?",
+        "Blockchain technology future trends",
+        "Where is blockchain headed?"
+      ],
+      "responses": [
+        "The future of blockchain is expected to include wider adoption across industries, increased scalability, and improvements in privacy and security.",
+        "Future trends in blockchain technology may include enhanced scalability, interoperability between different blockchains, and increased adoption in various industries.",
+        "Blockchain is headed towards greater adoption, scalability, and integration with other technologies."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_smart_contracts",
+      "patterns": [
+        "Explain smart contracts",
+        "What are smart contracts?",
+        "How do smart contracts work?",
+        "Smart contracts in blockchain"
+      ],
+      "responses": [
+        "Smart contracts are self-executing contracts with the terms of the agreement between buyer and seller directly written into lines of code.",
+        "Smart contracts work by automatically enforcing and executing the terms of a contract when predefined conditions are met.",
+        "Smart contracts are used in blockchain to automate and enforce the terms of agreements without the need for intermediaries."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_transactions",
+      "patterns": [
+        "How are transactions recorded in blockchain?",
+        "Explain blockchain transactions",
+        "Transaction process in blockchain"
+      ],
+      "responses": [
+        "Transactions are recorded in blockchain as blocks that are linked together in a chronological chain.",
+        "Blockchain transactions involve the transfer of digital assets from one party to another, recorded in a secure and transparent manner.",
+        "The transaction process in blockchain includes verification, validation, and addition of transactions to the blockchain."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_cryptocurrency",
+      "patterns": [
+        "What is cryptocurrency?",
+        "Explain cryptocurrency in blockchain",
+        "How does cryptocurrency work?"
+      ],
+      "responses": [
+        "Cryptocurrency is a digital or virtual form of currency that uses cryptography for security.",
+        "Cryptocurrency in blockchain refers to digital currencies that are secured by cryptographic techniques and operate on blockchain networks.",
+        "Cryptocurrency works through blockchain technology, which ensures secure and transparent transactions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_public_vs_private",
+      "patterns": [
+        "What is the difference between public and private blockchains?",
+        "Public vs private blockchains",
+        "Explain public and private blockchains"
+      ],
+      "responses": [
+        "Public blockchains are open and permissionless, allowing anyone to participate, while private blockchains are restricted and permissioned, requiring approval to join.",
+        "Public blockchains are decentralized and open to all, while private blockchains are centralized and controlled by a single entity or consortium.",
+        "Public blockchains are typically used for cryptocurrencies and open applications, while private blockchains are used for enterprise and closed systems."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_consensus_algorithms",
+      "patterns": [
+        "What are consensus algorithms in blockchain?",
+        "Explain blockchain consensus algorithms",
+        "Types of consensus algorithms in blockchain"
+      ],
+      "responses": [
+        "Consensus algorithms in blockchain are mechanisms used to achieve agreement on the validity of transactions and the order in which they are added to the blockchain.",
+        "Types of consensus algorithms in blockchain include Proof of Work (PoW), Proof of Stake (PoS), Delegated Proof of Stake (DPoS), and others.",
+        "Consensus algorithms ensure that all nodes in a blockchain network agree on the state of the ledger and prevent double-spending."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_scalability",
+      "patterns": [
+        "What is blockchain scalability?",
+        "How does blockchain achieve scalability?",
+        "Scalability solutions in blockchain"
+      ],
+      "responses": [
+        "Blockchain scalability refers to the ability of a blockchain network to handle a large number of transactions without compromising performance.",
+        "Blockchain achieves scalability through techniques such as sharding, off-chain transactions, and layer 2 solutions.",
+        "Scalability solutions in blockchain include increasing block sizes, implementing sharding, and using off-chain scaling solutions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_interoperability",
+      "patterns": [
+        "What is blockchain interoperability?",
+        "How does blockchain achieve interoperability?",
+        "Interoperability solutions in blockchain"
+      ],
+      "responses": [
+        "Blockchain interoperability refers to the ability of different blockchain networks to communicate and share data and assets.",
+        "Blockchain achieves interoperability through standards such as atomic swaps, sidechains, and cross-chain bridges.",
+        "Interoperability solutions in blockchain include using standardized protocols and bridges between different blockchain networks."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_regulation",
+      "patterns": [
+        "How is blockchain regulated?",
+        "Blockchain regulation",
+        "Legal aspects of blockchain"
+      ],
+      "responses": [
+        "Blockchain is regulated differently in various jurisdictions, with some countries adopting supportive regulations and others imposing restrictions.",
+        "Regulation of blockchain involves legal aspects such as data privacy, smart contracts, digital identity, and cryptocurrencies.",
+        "Blockchain regulation is evolving, with regulators exploring ways to balance innovation and consumer protection."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_challenges",
+      "patterns": [
+        "What are the challenges of blockchain technology?",
+        "Challenges facing blockchain adoption",
+        "Blockchain technology hurdles"
+      ],
+      "responses": [
+        "Challenges of blockchain technology include scalability, interoperability, regulatory uncertainty, and energy consumption.",
+        "Blockchain adoption faces challenges such as scalability, regulatory compliance, lack of standardization, and integration with existing systems.",
+        "Hurdles to blockchain technology include scalability limitations, regulatory concerns, and interoperability issues."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_ethereum",
+      "patterns": [
+        "What is Ethereum?",
+        "Explain Ethereum blockchain",
+        "Ethereum smart contracts"
+      ],
+      "responses": [
+        "Ethereum is a decentralized platform that enables developers to build and deploy smart contracts and decentralized applications (dApps).",
+        "The Ethereum blockchain is a decentralized platform that allows for the creation and execution of smart contracts.",
+        "Smart contracts on the Ethereum blockchain are self-executing contracts with the terms of the agreement directly written into lines of code."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_hyperledger",
+      "patterns": [
+        "What is Hyperledger?",
+        "Explain Hyperledger blockchain",
+        "Hyperledger use cases"
+      ],
+      "responses": [
+        "Hyperledger is an open-source collaborative effort hosted by the Linux Foundation to advance cross-industry blockchain technologies.",
+        "Hyperledger blockchain is a permissioned blockchain platform designed for enterprise use, offering modular and customizable solutions.",
+        "Hyperledger is used for various enterprise applications such as supply chain management, healthcare, finance, and more."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_impact",
+      "patterns": [
+        "What is the impact of blockchain technology?",
+        "Blockchain technology effects",
+        "How does blockchain impact industries?"
+      ],
+      "responses": [
+        "Blockchain technology has the potential to revolutionize industries by increasing transparency, reducing costs, and improving security.",
+        "The impact of blockchain technology includes improved efficiency, reduced fraud, increased transparency, and new business models.",
+        "Blockchain is impacting industries such as finance, supply chain, healthcare, voting, and more by enabling secure and transparent transactions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_adoption",
+      "patterns": [
+        "How is blockchain technology being adopted?",
+        "Blockchain adoption trends",
+        "Examples of blockchain adoption"
+      ],
+      "responses": [
+        "Blockchain technology is being adopted across industries such as finance, supply chain, healthcare, and more for its security and transparency.",
+        "Blockchain adoption trends show increasing interest from enterprises and governments in implementing blockchain solutions.",
+        "Examples of blockchain adoption include use cases in banking, supply chain management, healthcare, and digital identity verification."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_private_keys",
+      "patterns": [
+        "What are private keys in blockchain?",
+        "Explain blockchain private keys",
+        "How are private keys used in blockchain?"
+      ],
+      "responses": [
+        "Private keys in blockchain are cryptographic keys that are used to sign transactions and provide access to digital assets.",
+        "Blockchain private keys are used to generate digital signatures that verify the authenticity of transactions and provide access to wallet addresses.",
+        "Private keys in blockchain are used to securely sign transactions, ensuring that only the owner of the private key can authorize transactions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_wallets",
+      "patterns": [
+        "What are blockchain wallets?",
+        "Explain blockchain wallets",
+        "Types of blockchain wallets"
+      ],
+      "responses": [
+        "Blockchain wallets are digital wallets that allow users to store, send, and receive cryptocurrencies and digital assets.",
+        "Blockchain wallets store private keys that provide access to digital assets and allow users to manage their cryptocurrency holdings.",
+        "Types of blockchain wallets include software wallets, hardware wallets, paper wallets, and mobile wallets."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_mining",
+      "patterns": [
+        "What is blockchain mining?",
+        "Explain blockchain mining",
+        "How does blockchain mining work?"
+      ],
+      "responses": [
+        "Blockchain mining is the process by which new transactions are added to the blockchain and new blocks are created.",
+        "Blockchain mining involves solving complex mathematical puzzles to validate transactions and secure the network.",
+        "Blockchain mining works by miners competing to solve a cryptographic puzzle, with the first miner to solve the puzzle adding a new block to the blockchain."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_forks",
+      "patterns": [
+        "What are blockchain forks?",
+        "Explain blockchain forks",
+        "Types of blockchain forks"
+      ],
+      "responses": [
+        "Blockchain forks are changes to the protocol of a blockchain that result in a divergence in the chain's history.",
+        "Blockchain forks can be classified into hard forks, soft forks, and accidental forks.",
+        "Types of blockchain forks include hard forks, which result in two separate chains, and soft forks, which are backward-compatible."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_tokens",
+      "patterns": [
+        "What are tokens in blockchain?",
+        "Explain blockchain tokens",
+        "Types of blockchain tokens"
+      ],
+      "responses": [
+        "Tokens in blockchain are digital assets that represent value and can be used for various purposes such as payments, voting, and access to services.",
+        "Blockchain tokens can represent assets such as cryptocurrencies, utility tokens, security tokens, and non-fungible tokens (NFTs).",
+        "Types of blockchain tokens include utility tokens, which provide access to a product or service, and security tokens, which represent ownership of an asset."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_digital_identity",
+      "patterns": [
+        "What is blockchain digital identity?",
+        "Explain blockchain-based digital identity",
+        "How does blockchain improve digital identity?"
+      ],
+      "responses": [
+        "Blockchain digital identity is a digital representation of an individual's identity that is stored on a blockchain.",
+        "Blockchain-based digital identity improves security and privacy by giving individuals control over their personal information and reducing the risk of identity theft.",
+        "Blockchain improves digital identity by providing a secure and transparent way to verify and authenticate identities."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_supply_chain",
+      "patterns": [
+        "How is blockchain used in supply chain?",
+        "Blockchain supply chain applications",
+        "Benefits of blockchain in supply chain"
+      ],
+      "responses": [
+        "Blockchain is used in supply chain for tracking and tracing products, ensuring transparency and authenticity, and reducing fraud and counterfeiting.",
+        "Blockchain supply chain applications include product traceability, inventory management, and supplier verification.",
+        "Benefits of blockchain in supply chain include increased transparency, reduced costs, improved efficiency, and enhanced trust among stakeholders."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_voting",
+      "patterns": [
+        "How is blockchain used in voting?",
+        "Blockchain voting applications",
+        "Benefits of blockchain in voting"
+      ],
+      "responses": [
+        "Blockchain is used in voting for secure and transparent elections, ensuring the integrity of the voting process and reducing fraud.",
+        "Blockchain voting applications include remote voting, verifiable voting, and secure vote counting.",
+        "Benefits of blockchain in voting include increased transparency, reduced costs, and enhanced security and trust in the electoral process."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_healthcare",
+      "patterns": [
+        "How is blockchain used in healthcare?",
+        "Blockchain healthcare applications",
+        "Benefits of blockchain in healthcare"
+      ],
+      "responses": [
+        "Blockchain is used in healthcare for secure and interoperable health records, ensuring privacy and reducing medical errors.",
+        "Blockchain healthcare applications include patient data management, drug traceability, and telemedicine.",
+        "Benefits of blockchain in healthcare include improved data security, enhanced interoperability, and increased efficiency in healthcare delivery."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_real_estate",
+      "patterns": [
+        "How is blockchain used in real estate?",
+        "Blockchain real estate applications",
+        "Benefits of blockchain in real estate"
+      ],
+      "responses": [
+        "Blockchain is used in real estate for property transactions, title transfers, and property management, ensuring transparency and reducing fraud.",
+        "Blockchain real estate applications include property tokenization, smart contracts for lease agreements, and secure property records.",
+        "Benefits of blockchain in real estate include increased transparency, reduced transaction costs, and improved efficiency in property transactions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_energy",
+      "patterns": [
+        "How is blockchain used in energy?",
+        "Blockchain energy applications",
+        "Benefits of blockchain in energy"
+      ],
+      "responses": [
+        "Blockchain is used in energy for peer-to-peer energy trading, grid management, and renewable energy certificate tracking.",
+        "Blockchain energy applications include energy trading platforms, smart grids, and carbon footprint tracking.",
+        "Benefits of blockchain in energy include increased efficiency, reduced costs, and improved transparency and trust in energy transactions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_music",
+      "patterns": [
+        "How is blockchain used in music?",
+        "Blockchain music applications",
+        "Benefits of blockchain in music"
+      ],
+      "responses": [
+        "Blockchain is used in music for royalty tracking, rights management, and transparent royalty distribution.",
+        "Blockchain music applications include music streaming platforms, copyright protection, and direct artist-to-fan engagement.",
+        "Benefits of blockchain in music include fairer royalty distribution, reduced intermediaries, and increased transparency in music licensing."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_gaming",
+      "patterns": [
+        "How is blockchain used in gaming?",
+        "Blockchain gaming applications",
+        "Benefits of blockchain in gaming"
+      ],
+      "responses": [
+        "Blockchain is used in gaming for asset ownership, digital item trading, and provably fair gaming.",
+        "Blockchain gaming applications include blockchain-based games, digital collectibles, and in-game asset marketplaces.",
+        "Benefits of blockchain in gaming include true ownership of in-game assets, interoperability between games, and transparent game mechanics."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_insurance",
+      "patterns": [
+        "How is blockchain used in insurance?",
+        "Blockchain insurance applications",
+        "Benefits of blockchain in insurance"
+      ],
+      "responses": [
+        "Blockchain is used in insurance for claims processing, fraud prevention, and smart contracts for insurance policies.",
+        "Blockchain insurance applications include automated claims processing, parametric insurance, and fraud detection.",
+        "Benefits of blockchain in insurance include faster claims processing, reduced fraud, and lower operational costs."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_legal",
+      "patterns": [
+        "How is blockchain used in legal?",
+        "Blockchain legal applications",
+        "Benefits of blockchain in legal"
+      ],
+      "responses": [
+        "Blockchain is used in legal for smart contracts, evidence management, and secure document storage.",
+        "Blockchain legal applications include smart contracts for legal agreements, digital notarization, and secure legal document sharing.",
+        "Benefits of blockchain in legal include increased efficiency, reduced costs, and enhanced security and transparency in legal processes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_education",
+      "patterns": [
+        "How is blockchain used in education?",
+        "Blockchain education applications",
+        "Benefits of blockchain in education"
+      ],
+      "responses": [
+        "Blockchain is used in education for credential verification, secure record-keeping, and digital certificates.",
+        "Blockchain education applications include blockchain-based diplomas, secure academic transcripts, and decentralized learning platforms.",
+        "Benefits of blockchain in education include secure and verifiable credentials, reduced fraud, and improved access to education."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_charity",
+      "patterns": [
+        "How is blockchain used in charity?",
+        "Blockchain charity applications",
+        "Benefits of blockchain in charity"
+      ],
+      "responses": [
+        "Blockchain is used in charity for transparent donations, fund tracking, and donor verification.",
+        "Blockchain charity applications include transparent donation platforms, smart contracts for charity programs, and immutable donation records.",
+        "Benefits of blockchain in charity include increased transparency, reduced administrative costs, and improved trust among donors."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_advertising",
+      "patterns": [
+        "How is blockchain used in advertising?",
+        "Blockchain advertising applications",
+        "Benefits of blockchain in advertising"
+      ],
+      "responses": [
+        "Blockchain is used in advertising for ad fraud prevention, transparent ad buying, and audience targeting.",
+        "Blockchain advertising applications include decentralized ad networks, transparent ad bidding, and user-controlled data sharing.",
+        "Benefits of blockchain in advertising include reduced ad fraud, increased transparency, and better targeting and measurement."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_entertainment",
+      "patterns": [
+        "How is blockchain used in entertainment?",
+        "Blockchain entertainment applications",
+        "Benefits of blockchain in entertainment"
+      ],
+      "responses": [
+        "Blockchain is used in entertainment for content monetization, royalty tracking, and decentralized content distribution.",
+        "Blockchain entertainment applications include blockchain-based streaming platforms, decentralized content marketplaces, and digital rights management.",
+        "Benefits of blockchain in entertainment include fairer revenue sharing, direct artist-to-fan engagement, and improved content ownership and control."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_identity",
+      "patterns": [
+        "How is blockchain used in identity management?",
+        "Blockchain identity applications",
+        "Benefits of blockchain in identity management"
+      ],
+      "responses": [
+        "Blockchain is used in identity management for secure and decentralized identity verification, reducing the risk of identity theft and fraud.",
+        "Blockchain identity applications include self-sovereign identity, decentralized identity wallets, and secure digital identity verification.",
+        "Benefits of blockchain in identity management include enhanced privacy, improved security, and reduced reliance on centralized identity providers."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_learning",
+      "patterns": [
+        "How can I learn about blockchain?",
+        "What is the best way to learn blockchain?",
+        "Where can I find resources to learn blockchain?"
+      ],
+      "responses": [
+        "You can learn about blockchain through online courses, books, tutorials, and hands-on projects.",
+        "The best way to learn blockchain is to start with the basics and gradually build your understanding through practice and experimentation.",
+        "Resources to learn blockchain include online courses on platforms like Coursera and Udemy, books such as 'Mastering Bitcoin' by Andreas M. Antonopoulos, and tutorials on websites like Medium and YouTube."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_courses",
+      "patterns": [
+        "What are the best blockchain courses?",
+        "Recommended blockchain courses",
+        "Top blockchain courses"
+      ],
+      "responses": [
+        "Some of the best blockchain courses include 'Blockchain Basics' by Coursera, 'Bitcoin and Cryptocurrency Technologies' by Princeton University on Coursera, and 'Blockchain Fundamentals' by BerkeleyX on edX.",
+        "Recommended blockchain courses depend on your level of expertise and interest, but popular choices include courses on Coursera, Udemy, and edX."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_books",
+      "patterns": [
+        "What are the best books to learn about blockchain?",
+        "Recommended blockchain books",
+        "Top blockchain books"
+      ],
+      "responses": [
+        "Some of the best books to learn about blockchain include 'Mastering Bitcoin' by Andreas M. Antonopoulos, 'Blockchain Basics: A Non-Technical Introduction in 25 Steps' by Daniel Drescher, and 'The Basics of Bitcoins and Blockchains' by Antony Lewis.",
+        "Recommended blockchain books vary depending on your level of expertise and interest, but these books offer a good starting point for beginners."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_resources",
+      "patterns": [
+        "Where can I find resources to learn blockchain development?",
+        "Recommended resources for blockchain development",
+        "Top resources for learning blockchain"
+      ],
+      "responses": [
+        "You can find resources to learn blockchain development on websites like Coursera, Udemy, and edX, which offer courses on blockchain programming languages and development tools.",
+        "Recommended resources for blockchain development include online courses, tutorials, and documentation provided by blockchain platforms such as Ethereum, Hyperledger, and EOS."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_certifications",
+      "patterns": [
+        "What are the best blockchain certifications?",
+        "Recommended blockchain certifications",
+        "Top blockchain certifications"
+      ],
+      "responses": [
+        "Some of the best blockchain certifications include the Certified Blockchain Developer (CBD) by the Blockchain Council, the Certified Blockchain Expert (CBE) by the Blockchain Council, and the Certified Blockchain Professional (CBP) by the Blockchain Institute.",
+        "Recommended blockchain certifications depend on your career goals and interests, but these certifications are widely recognized in the industry."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_communities",
+      "patterns": [
+        "How can I connect with blockchain communities?",
+        "Blockchain community forums",
+        "Where can I find blockchain enthusiasts?"
+      ],
+      "responses": [
+        "You can connect with blockchain communities through online forums such as Reddit's r/Blockchain and r/Bitcoin, blockchain conferences and meetups, and social media platforms like Twitter and LinkedIn.",
+        "Blockchain enthusiasts can be found in online communities, blockchain conferences, and local meetups dedicated to blockchain technology."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_practice",
+      "patterns": [
+        "How can I practice blockchain development?",
+        "Blockchain development projects",
+        "Hands-on blockchain learning"
+      ],
+      "responses": [
+        "You can practice blockchain development by working on projects such as creating smart contracts, building decentralized applications (dApps), and participating in blockchain hackathons.",
+        "Hands-on learning is essential for mastering blockchain development, so try to work on real-world projects and contribute to open-source blockchain projects."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_career",
+      "patterns": [
+        "How can I start a career in blockchain?",
+        "Blockchain job opportunities",
+        "Career paths in blockchain"
+      ],
+      "responses": [
+        "To start a career in blockchain, you can gain relevant skills through education and hands-on experience, build a strong network in the blockchain community, and look for job opportunities in blockchain startups, tech companies, and consulting firms.",
+        "Career paths in blockchain include blockchain developer, blockchain engineer, blockchain consultant, and blockchain project manager, among others."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_future",
+      "patterns": [
+        "What is the future of blockchain?",
+        "Blockchain technology trends",
+        "Where is blockchain headed?"
+      ],
+      "responses": [
+        "The future of blockchain is expected to include wider adoption across industries, increased scalability, and improvements in privacy and security.",
+        "Future trends in blockchain technology may include enhanced scalability, interoperability between different blockchains, and increased adoption in various industries.",
+        "Blockchain is headed towards greater adoption, scalability, and integration with other technologies."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_business",
+      "patterns": [
+        "How can blockchain benefit my business?",
+        "Blockchain applications for businesses",
+        "Implementing blockchain in business"
+      ],
+      "responses": [
+        "Blockchain can benefit your business by increasing transparency, reducing costs, improving security, and enabling new business models.",
+        "Blockchain applications for businesses include supply chain tracking, smart contracts for automated agreements, and secure data sharing.",
+        "Implementing blockchain in your business requires understanding your business needs, selecting the right blockchain platform, and integrating blockchain with your existing systems."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_security",
+      "patterns": [
+        "How secure is blockchain technology?",
+        "Blockchain security measures",
+        "Ensuring security in blockchain"
+      ],
+      "responses": [
+        "Blockchain is considered secure due to its decentralized and cryptographic nature, but there are still security risks such as 51% attacks and smart contract vulnerabilities.",
+        "Blockchain security measures include cryptographic techniques such as hashing and digital signatures, consensus mechanisms to validate transactions, and network decentralization.",
+        "Ensuring security in blockchain involves implementing best practices such as regular security audits, using secure coding practices, and keeping private keys secure."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_career_start",
+      "patterns": [
+        "How can I start a career in blockchain?",
+        "Steps to start a career in blockchain",
+        "Getting started in blockchain"
+      ],
+      "responses": [
+        "To start a career in blockchain, you can begin by learning about blockchain technology, gaining relevant skills through education and training, and building a strong network in the blockchain community.",
+        "Steps to start a career in blockchain include learning programming languages such as Solidity and Java, gaining knowledge of blockchain platforms like Ethereum and Hyperledger, and participating in blockchain projects and hackathons.",
+        "Getting started in blockchain involves understanding the fundamentals of blockchain technology, exploring different blockchain platforms and use cases, and acquiring the necessary skills through education and hands-on experience."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_career_path",
+      "patterns": [
+        "What are the career paths in blockchain?",
+        "Blockchain career options",
+        "Jobs in blockchain"
+      ],
+      "responses": [
+        "Career paths in blockchain include blockchain developer, blockchain engineer, blockchain consultant, blockchain project manager, and blockchain analyst, among others.",
+        "Jobs in blockchain span a range of roles including developers, engineers, consultants, project managers, and analysts, each requiring different skills and expertise."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_developer_role",
+      "patterns": [
+        "What does a blockchain developer do?",
+        "Role of a blockchain developer",
+        "Responsibilities of a blockchain developer"
+      ],
+      "responses": [
+        "A blockchain developer designs, develops, and implements blockchain-based solutions such as smart contracts, decentralized applications (dApps), and blockchain platforms.",
+        "Responsibilities of a blockchain developer include writing and testing code, implementing security measures, and collaborating with other team members to build and deploy blockchain solutions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_engineer_role",
+      "patterns": [
+        "What does a blockchain engineer do?",
+        "Role of a blockchain engineer",
+        "Responsibilities of a blockchain engineer"
+      ],
+      "responses": [
+        "A blockchain engineer designs, builds, and maintains blockchain infrastructure, including nodes, networks, and consensus algorithms, to ensure the security and scalability of blockchain systems.",
+        "Responsibilities of a blockchain engineer include designing and implementing blockchain solutions, optimizing blockchain performance, and troubleshooting blockchain issues."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_consultant_role",
+      "patterns": [
+        "What does a blockchain consultant do?",
+        "Role of a blockchain consultant",
+        "Responsibilities of a blockchain consultant"
+      ],
+      "responses": [
+        "A blockchain consultant advises businesses on how to leverage blockchain technology to improve their operations, increase efficiency, and drive innovation.",
+        "Responsibilities of a blockchain consultant include analyzing business requirements, recommending blockchain solutions, and providing guidance on blockchain implementation and integration."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_project_manager_role",
+      "patterns": [
+        "What does a blockchain project manager do?",
+        "Role of a blockchain project manager",
+        "Responsibilities of a blockchain project manager"
+      ],
+      "responses": [
+        "A blockchain project manager oversees and coordinates blockchain projects from inception to completion, ensuring that project goals are achieved on time and within budget.",
+        "Responsibilities of a blockchain project manager include planning and executing blockchain projects, managing project teams, and communicating project status to stakeholders."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_analyst_role",
+      "patterns": [
+        "What does a blockchain analyst do?",
+        "Role of a blockchain analyst",
+        "Responsibilities of a blockchain analyst"
+      ],
+      "responses": [
+        "A blockchain analyst analyzes blockchain data to extract insights, identify trends, and make informed decisions to improve business processes and strategies.",
+        "Responsibilities of a blockchain analyst include collecting and analyzing blockchain data, preparing reports and presentations, and providing recommendations based on data analysis."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_skills",
+      "patterns": [
+        "What skills are needed for a career in blockchain?",
+        "Essential skills for blockchain professionals",
+        "Blockchain job skills"
+      ],
+      "responses": [
+        "Skills needed for a career in blockchain include programming languages such as Solidity, Java, and C++, knowledge of blockchain platforms like Ethereum and Hyperledger, and understanding of cryptography and cybersecurity.",
+        "Essential skills for blockchain professionals include programming skills, problem-solving abilities, knowledge of blockchain technology and platforms, and strong communication and collaboration skills."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_education",
+      "patterns": [
+        "What education is required for a career in blockchain?",
+        "Blockchain education requirements",
+        "Blockchain degrees and certifications"
+      ],
+      "responses": [
+        "Education requirements for a career in blockchain vary depending on the specific role, but typically include a bachelor's degree in computer science, information technology, or a related field, and additional certifications or training in blockchain technology.",
+        "Blockchain degrees and certifications include Certified Blockchain Developer (CBD), Certified Blockchain Expert (CBE), and Certified Blockchain Professional (CBP), among others."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_salary",
+      "patterns": [
+        "What is the salary range for blockchain professionals?",
+        "Blockchain job salaries",
+        "Average salary for blockchain jobs"
+      ],
+      "responses": [
+        "Salaries for blockchain professionals vary depending on factors such as job role, experience, location, and employer, but can range from $50,000 to over $200,000 per year.",
+        "Average salary for blockchain jobs can range from $50,000 to $150,000 per year, with higher salaries for experienced professionals and those in leadership roles."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_job_market",
+      "patterns": [
+        "What is the job market like for blockchain professionals?",
+        "Blockchain job opportunities",
+        "Demand for blockchain skills"
+      ],
+      "responses": [
+        "The job market for blockchain professionals is growing rapidly, with increasing demand for skills in blockchain development, engineering, consulting, and project management.",
+        "Blockchain job opportunities are plentiful, with companies across industries looking for blockchain talent to help them implement and leverage blockchain technology."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_future",
+      "patterns": [
+        "What is the future of blockchain?",
+        "Blockchain technology trends",
+        "Where is blockchain headed?"
+      ],
+      "responses": [
+        "The future of blockchain is expected to include wider adoption across industries, increased scalability, and improvements in privacy and security.",
+        "Future trends in blockchain technology may include enhanced scalability, interoperability between different blockchains, and increased adoption in various industries.",
+        "Blockchain is headed towards greater adoption, scalability, and integration with other technologies."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_scalability",
+      "patterns": [
+        "How will blockchain scalability improve in the future?",
+        "Scalability solutions for blockchain",
+        "Future of blockchain scalability"
+      ],
+      "responses": [
+        "Blockchain scalability is expected to improve through solutions such as sharding, sidechains, and off-chain scaling techniques.",
+        "Future of blockchain scalability may include the adoption of layer 2 solutions, such as the Lightning Network for Bitcoin and the Raiden Network for Ethereum, which enable faster and cheaper transactions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_interoperability",
+      "patterns": [
+        "What is the future of blockchain interoperability?",
+        "Interoperable blockchain solutions",
+        "Improving blockchain interoperability"
+      ],
+      "responses": [
+        "The future of blockchain interoperability may include the development of standards and protocols that enable different blockchains to communicate and transact with each other.",
+        "Interoperable blockchain solutions may enable seamless transfer of assets and data between different blockchains, increasing the efficiency and usability of blockchain technology."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_privacy",
+      "patterns": [
+        "How will blockchain address privacy concerns in the future?",
+        "Future of blockchain privacy",
+        "Improving privacy in blockchain"
+      ],
+      "responses": [
+        "Blockchain may address privacy concerns in the future through solutions such as zero-knowledge proofs, ring signatures, and encrypted data storage.",
+        "Future of blockchain privacy may include the development of privacy-focused blockchain platforms and tools that enable users to control and protect their data."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_regulation",
+      "patterns": [
+        "What is the future of blockchain regulation?",
+        "Regulatory trends for blockchain",
+        "Blockchain regulatory challenges"
+      ],
+      "responses": [
+        "The future of blockchain regulation may include the development of clearer and more consistent regulatory frameworks that address the unique challenges of blockchain technology.",
+        "Regulatory trends for blockchain may include increased oversight and compliance requirements, as well as efforts to combat fraud and illicit activities."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_adoption",
+      "patterns": [
+        "How will blockchain adoption evolve in the future?",
+        "Future of blockchain adoption",
+        "Increasing blockchain adoption"
+      ],
+      "responses": [
+        "Blockchain adoption is expected to increase in the future as more industries and businesses recognize the benefits of blockchain technology.",
+        "Future of blockchain adoption may include widespread use of blockchain in areas such as finance, supply chain, healthcare, and government services."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_integration",
+      "patterns": [
+        "How will blockchain integrate with other technologies in the future?",
+        "Future of blockchain integration",
+        "Blockchain and emerging technologies"
+      ],
+      "responses": [
+        "Blockchain may integrate with other technologies such as artificial intelligence (AI), Internet of Things (IoT), and big data analytics to create more powerful and efficient systems.",
+        "Future of blockchain integration may include the development of hybrid systems that combine blockchain with other technologies to address complex business challenges."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_innovation",
+      "patterns": [
+        "What are some innovative uses of blockchain in the future?",
+        "Future blockchain applications",
+        "Emerging blockchain trends"
+      ],
+      "responses": [
+        "Innovative uses of blockchain in the future may include decentralized autonomous organizations (DAOs), self-sovereign identity, and tokenized ecosystems.",
+        "Future blockchain applications may revolutionize industries such as finance, healthcare, supply chain, and voting, among others."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_impact",
+      "patterns": [
+        "What impact will blockchain have on society in the future?",
+        "Future societal implications of blockchain",
+        "Blockchain and social change"
+      ],
+      "responses": [
+        "Blockchain may have a significant impact on society in the future by increasing transparency, reducing fraud, and enabling new forms of economic activity.",
+        "Future societal implications of blockchain may include greater financial inclusion, improved data security and privacy, and more efficient and transparent governance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_ethics",
+      "patterns": [
+        "What ethical considerations are associated with blockchain in the future?",
+        "Future ethical challenges of blockchain",
+        "Blockchain and ethical dilemmas"
+      ],
+      "responses": [
+        "Ethical considerations associated with blockchain in the future may include issues related to data privacy, security, and the impact of blockchain on job displacement and inequality.",
+        "Future ethical challenges of blockchain may require careful consideration of how blockchain technology is used and its potential impact on individuals and society."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_finance",
+      "patterns": [
+        "How is finance dependent on blockchain?",
+        "Blockchain applications in finance",
+        "Benefits of blockchain in finance"
+      ],
+      "responses": [
+        "Finance is dependent on blockchain for applications such as cross-border payments, smart contracts for automated transactions, and decentralized finance (DeFi) platforms.",
+        "Blockchain applications in finance include secure and transparent transactions, reduced costs and transaction times, and improved accessibility to financial services.",
+        "Benefits of blockchain in finance include increased efficiency, reduced fraud and transaction costs, and improved financial inclusion for underserved populations."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_supply_chain",
+      "patterns": [
+        "How is supply chain dependent on blockchain?",
+        "Blockchain applications in supply chain",
+        "Benefits of blockchain in supply chain"
+      ],
+      "responses": [
+        "Supply chain is dependent on blockchain for applications such as traceability of goods, supply chain transparency, and efficient inventory management.",
+        "Blockchain applications in supply chain include secure and transparent tracking of goods, automated supply chain processes, and reduced fraud and counterfeiting.",
+        "Benefits of blockchain in supply chain include improved transparency, traceability, and efficiency, as well as reduced costs and fraud."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_healthcare",
+      "patterns": [
+        "How is healthcare dependent on blockchain?",
+        "Blockchain applications in healthcare",
+        "Benefits of blockchain in healthcare"
+      ],
+      "responses": [
+        "Healthcare is dependent on blockchain for applications such as secure and interoperable health records, drug traceability, and telemedicine.",
+        "Blockchain applications in healthcare include secure and transparent health records, efficient data sharing among healthcare providers, and improved patient care.",
+        "Benefits of blockchain in healthcare include improved data security and privacy, streamlined processes, and enhanced patient outcomes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_real_estate",
+      "patterns": [
+        "How is real estate dependent on blockchain?",
+        "Blockchain applications in real estate",
+        "Benefits of blockchain in real estate"
+      ],
+      "responses": [
+        "Real estate is dependent on blockchain for applications such as property tokenization, smart contracts for real estate transactions, and transparent property records.",
+        "Blockchain applications in real estate include fractional ownership of properties, automated real estate transactions, and secure and transparent property records.",
+        "Benefits of blockchain in real estate include increased liquidity, reduced transaction costs, and improved transparency and security in property transactions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_government",
+      "patterns": [
+        "How is government dependent on blockchain?",
+        "Blockchain applications in government",
+        "Benefits of blockchain in government"
+      ],
+      "responses": [
+        "Government is dependent on blockchain for applications such as secure voting systems, transparent and efficient public services, and identity management.",
+        "Blockchain applications in government include secure and transparent voting systems, streamlined public services, and secure digital identities.",
+        "Benefits of blockchain in government include increased transparency and accountability, reduced fraud and corruption, and improved efficiency in public services."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_education",
+      "patterns": [
+        "How is education dependent on blockchain?",
+        "Blockchain applications in education",
+        "Benefits of blockchain in education"
+      ],
+      "responses": [
+        "Education is dependent on blockchain for applications such as secure and verifiable credentials, decentralized learning platforms, and academic record management.",
+        "Blockchain applications in education include secure academic transcripts, digital certificates, and decentralized learning platforms.",
+        "Benefits of blockchain in education include secure and verifiable credentials, reduced fraud, and improved access to education."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_legal",
+      "patterns": [
+        "How is the legal industry dependent on blockchain?",
+        "Blockchain applications in the legal industry",
+        "Benefits of blockchain in the legal industry"
+      ],
+      "responses": [
+        "The legal industry is dependent on blockchain for applications such as smart contracts for legal agreements, secure evidence management, and digital notarization.",
+        "Blockchain applications in the legal industry include smart contracts for automated legal agreements, secure document management, and digital notarization.",
+        "Benefits of blockchain in the legal industry include increased efficiency, reduced costs, and enhanced security and transparency in legal processes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_energy",
+      "patterns": [
+        "How is the energy industry dependent on blockchain?",
+        "Blockchain applications in the energy industry",
+        "Benefits of blockchain in the energy industry"
+      ],
+      "responses": [
+        "The energy industry is dependent on blockchain for applications such as peer-to-peer energy trading, grid management, and renewable energy certificate tracking.",
+        "Blockchain applications in the energy industry include energy trading platforms, smart grids, and carbon footprint tracking.",
+        "Benefits of blockchain in the energy industry include increased efficiency, reduced costs, and improved transparency and trust in energy transactions."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_charity",
+      "patterns": [
+        "How is the charity sector dependent on blockchain?",
+        "Blockchain applications in the charity sector",
+        "Benefits of blockchain in the charity sector"
+      ],
+      "responses": [
+        "The charity sector is dependent on blockchain for applications such as transparent donation tracking, secure fund management, and donor verification.",
+        "Blockchain applications in the charity sector include transparent donation platforms, smart contracts for charity programs, and immutable donation records.",
+        "Benefits of blockchain in the charity sector include increased transparency, reduced administrative costs, and improved trust among donors."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "blockchain_music",
+      "patterns": [
+        "How is the music industry dependent on blockchain?",
+        "Blockchain applications in the music industry",
+        "Benefits of blockchain in the music industry"
+      ],
+      "responses": [
+        "The music industry is dependent on blockchain for applications such as royalty tracking, rights management, and transparent royalty distribution.",
+        "Blockchain applications in the music industry include music streaming platforms, copyright protection, and direct artist-to-fan engagement.",
+        "Benefits of blockchain in the music industry include fairer royalty distribution, reduced intermediaries, and increased transparency in music licensing."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "courses_blockchain",
+      "patterns": [
+        "Can you recommend courses on blockchain?",
+        "Best courses on blockchain",
+        "Blockchain courses"
+      ],
+      "responses": [
+        "Some recommended courses on blockchain include 'Blockchain Basics' by Udemy, 'Blockchain Fundamentals' by Coursera, and 'Bitcoin and Cryptocurrency Technologies' by Princeton University on Coursera.",
+        "Blockchain courses cover a range of topics from the basics of blockchain technology to more advanced concepts. Some popular choices include 'Blockchain Specialization' by University at Buffalo on Coursera, 'Ethereum and Solidity: The Complete Developer's Guide' by Udemy, and 'Blockchain Revolution for the Enterprise' by INSEAD on Coursera."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "courses_blockchain_certification",
+      "patterns": [
+        "Can you recommend certification courses on blockchain?",
+        "Best certification courses on blockchain",
+        "Blockchain certification courses"
+      ],
+      "responses": [
+        "Some recommended certification courses on blockchain include 'Certified Blockchain Developer' by Blockchain Council, 'Certified Blockchain Expert' by Blockchain Council, and 'Certified Blockchain Professional' by Blockchain Training Alliance.",
+        "Certification courses on blockchain provide in-depth knowledge and skills required for various blockchain roles. Some popular choices include 'Certified Blockchain Solutions Architect' by Blockchain Training Alliance, 'Certified Enterprise Blockchain Professional' by B9lab, and 'Certified Blockchain Business Foundations' by Blockchain Training Alliance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "courses_blockchain_free",
+      "patterns": [
+        "Can you recommend free courses on blockchain?",
+        "Best free courses on blockchain",
+        "Blockchain free courses"
+      ],
+      "responses": [
+        "Some recommended free courses on blockchain include 'Blockchain Basics' by Udemy, 'Blockchain and Cryptocurrency Explained' by edX, and 'Blockchain Technology' by Coursera.",
+        "Free courses on blockchain cover introductory topics and provide a basic understanding of blockchain technology. Some popular choices include 'Bitcoin and Cryptocurrency Technologies' by Princeton University on Coursera, 'Blockchain Revolution for the Enterprise' by INSEAD on Coursera, and 'Blockchain Basics' by LinkedIn Learning."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "courses_blockchain_university",
+      "patterns": [
+        "Can you recommend university courses on blockchain?",
+        "Best university courses on blockchain",
+        "Blockchain university courses"
+      ],
+      "responses": [
+        "Some recommended university courses on blockchain include 'Blockchain Technology' by Stanford University, 'Blockchain: Foundations and Use Cases' by University of California, Berkeley, and 'Blockchain for Business' by The State University of New York (SUNY).",
+        "University courses on blockchain cover various aspects of blockchain technology, including its applications and potential impact on industries. Some popular choices include 'Blockchain and Cryptocurrency' by Princeton University, 'Cryptocurrency and Blockchain: An Introduction to Digital Currencies' by University of Pennsylvania, and 'Blockchain Specialization' by University at Buffalo."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "courses_blockchain_online",
+      "patterns": [
+        "Can you recommend online courses on blockchain?",
+        "Best online courses on blockchain",
+        "Blockchain online courses"
+      ],
+      "responses": [
+        "Some recommended online courses on blockchain include 'Blockchain Basics' by Udemy, 'Blockchain Fundamentals' by Coursera, and 'Blockchain and Cryptocurrency Explained' by edX.",
+        "Online courses on blockchain offer flexibility and convenience for learners. Some popular choices include 'Bitcoin and Cryptocurrency Technologies' by Princeton University on Coursera, 'Blockchain Revolution for the Enterprise' by INSEAD on Coursera, and 'Blockchain: Foundations and Use Cases' by University of California, Berkeley on edX."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "courses_blockchain_beginner",
+      "patterns": [
+        "Can you recommend beginner courses on blockchain?",
+        "Best beginner courses on blockchain",
+        "Blockchain beginner courses"
+      ],
+      "responses": [
+        "Some recommended beginner courses on blockchain include 'Blockchain Basics' by Udemy, 'Blockchain Fundamentals' by Coursera, and 'Bitcoin and Cryptocurrency Explained' by edX.",
+        "Beginner courses on blockchain provide an introduction to the basic concepts and principles of blockchain technology. Some popular choices include 'Blockchain Basics' by LinkedIn Learning, 'Blockchain and Cryptocurrency: What You Need to Know' by Coursera, and 'Blockchain: Principles and Practices' by edX."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "courses_blockchain_intermediate",
+      "patterns": [
+        "Can you recommend intermediate courses on blockchain?",
+        "Best intermediate courses on blockchain",
+        "Blockchain intermediate courses"
+      ],
+      "responses": [
+        "Some recommended intermediate courses on blockchain include 'Ethereum and Solidity: The Complete Developer's Guide' by Udemy, 'Blockchain Specialization' by University at Buffalo on Coursera, and 'Blockchain Revolution for the Enterprise' by INSEAD on Coursera.",
+        "Intermediate courses on blockchain cover more advanced topics and concepts beyond the basics. Some popular choices include 'Blockchain Advanced Level: Uses Beyond Bitcoin' by Coursera, 'Blockchain in Practice' by edX, and 'Blockchain Applications and Smart Contracts' by Udemy."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "courses_blockchain_advanced",
+      "patterns": [
+        "Can you recommend advanced courses on blockchain?",
+        "Best advanced courses on blockchain",
+        "Blockchain advanced courses"
+      ],
+      "responses": [
+        "Some recommended advanced courses on blockchain include 'Certified Blockchain Solutions Architect' by Blockchain Training Alliance, 'Certified Enterprise Blockchain Professional' by B9lab, and 'Blockchain for Business - Advanced' by The State University of New York (SUNY).",
+        "Advanced courses on blockchain cover complex topics and advanced concepts for professionals looking to deepen their understanding of blockchain technology. Some popular choices include 'Advanced Cryptocurrency Trading' by Udemy, 'Blockchain for Business - Advanced' by LinkedIn Learning, and 'Blockchain and Cryptocurrency: Ethical and Legal Issues' by Coursera."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "courses_blockchain_developer",
+      "patterns": [
+        "Can you recommend courses for blockchain developers?",
+        "Best courses for blockchain developers",
+        "Blockchain developer courses"
+      ],
+      "responses": [
+        "Some recommended courses for blockchain developers include 'Ethereum and Solidity: The Complete Developer's Guide' by Udemy, 'Certified Blockchain Developer' by Blockchain Council, and 'Blockchain Developer Nanodegree' by Udacity.",
+        "Courses for blockchain developers cover programming languages and tools used in blockchain development. Some popular choices include 'Blockchain Developer Bootcamp' by Udemy, 'Mastering Blockchain Development with Solidity' by LinkedIn Learning, and 'Blockchain: Principles and Practices' by edX."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "courses_blockchain_ethereum",
+      "patterns": [
+        "Can you recommend courses on Ethereum blockchain?",
+        "Best courses on Ethereum blockchain",
+        "Ethereum blockchain courses"
+      ],
+      "responses": [
+        "Some recommended courses on Ethereum blockchain include 'Ethereum and Solidity: The Complete Developer's Guide' by Udemy, 'Ethereum Blockchain Developer: Build Projects Using Solidity' by Udemy, and 'Ethereum Smart Contract Programming 101' by BitDegree.",
+        "Courses on Ethereum blockchain cover various aspects of Ethereum development, including smart contract development and decentralized application (DApp) development. Some popular choices include 'Ethereum Blockchain Developer Bootcamp With Solidity (2022)' by Udemy, 'Ethereum Blockchain Developer Guide: Build Projects Using Solidity' by LinkedIn Learning, and 'Ethereum: Decentralized Application Design & Development' by Coursera."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "books_blockchain",
+      "patterns": [
+        "Can you recommend books on blockchain?",
+        "Best books on blockchain",
+        "Blockchain books"
+      ],
+      "responses": [
+        "Some recommended books on blockchain include 'Mastering Bitcoin' by Andreas M. Antonopoulos, 'Blockchain Basics: A Non-Technical Introduction in 25 Steps' by Daniel Drescher, and 'The Basics of Bitcoins and Blockchains' by Antony Lewis.",
+        "Books on blockchain cover a range of topics from the basics of blockchain technology to more advanced concepts. Some popular choices include 'Mastering Ethereum' by Andreas M. Antonopoulos, 'Blockchain Revolution' by Don Tapscott and Alex Tapscott, and 'Cryptocurrency: How Bitcoin and Digital Money are Challenging the Global Economic Order' by Paul Vigna and Michael J. Casey."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "books_blockchain_advanced",
+      "patterns": [
+        "Can you recommend advanced books on blockchain?",
+        "Best advanced books on blockchain",
+        "Advanced blockchain books"
+      ],
+      "responses": [
+        "Some recommended advanced books on blockchain include 'Blockchain Basics: A Non-Technical Introduction in 25 Steps' by Daniel Drescher, 'Blockchain Revolution: How the Technology Behind Bitcoin and Other Cryptocurrencies is Changing the World' by Don Tapscott and Alex Tapscott, and 'The Age of Cryptocurrency: How Bitcoin and Digital Money are Challenging the Global Economic Order' by Paul Vigna and Michael J. Casey.",
+        "Advanced books on blockchain delve deeper into the technical aspects and potential applications of blockchain technology. Some popular choices include 'Mastering Blockchain: Unlocking the Power of Cryptocurrencies, Smart Contracts, and Decentralized Applications' by Imran Bashir, 'Blockchain: Blueprint for a New Economy' by Melanie Swan, and 'The Business Blockchain: Promise, Practice, and Application of the Next Internet Technology' by William Mougayar."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "books_blockchain_business",
+      "patterns": [
+        "Can you recommend books on blockchain for business?",
+        "Best blockchain books for business",
+        "Blockchain business books"
+      ],
+      "responses": [
+        "Some recommended books on blockchain for business include 'Blockchain for Business: Discover How Blockchain Technology is Transforming the Business World' by J.F. Kitchin, 'Blockchain: Transforming Your Business and Our World' by Mark Van Rijmenam, and 'Blockchain: The Insights You Need from Harvard Business Review' by Harvard Business Review.",
+        "Blockchain books for business cover topics such as blockchain adoption, implementation strategies, and case studies. Some popular choices include 'Blockchain Revolution: How the Technology Behind Bitcoin and Other Cryptocurrencies is Changing the World' by Don Tapscott and Alex Tapscott, 'The Business Blockchain: Promise, Practice, and Application of the Next Internet Technology' by William Mougayar, and 'Blockchain for Dummies' by Tiana Laurence."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "books_blockchain_technology",
+      "patterns": [
+        "Can you recommend books on blockchain technology?",
+        "Best blockchain technology books",
+        "Blockchain technology books"
+      ],
+      "responses": [
+        "Some recommended books on blockchain technology include 'Blockchain Basics: A Non-Technical Introduction in 25 Steps' by Daniel Drescher, 'Blockchain: Blueprint for a New Economy' by Melanie Swan, and 'Mastering Bitcoin: Unlocking Digital Cryptocurrencies' by Andreas M. Antonopoulos.",
+        "Blockchain technology books cover the technical aspects of blockchain, including its architecture, consensus algorithms, and smart contracts. Some popular choices include 'Blockchain Developer's Guide' by Brenn Hill, 'Blockchain and the Law: The Rule of Code' by Primavera De Filippi and Aaron Wright, and 'Introducing Ethereum and Solidity: Foundations of Cryptocurrency and Blockchain Programming for Beginners' by Chris Dannen."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "books_blockchain_cryptocurrency",
+      "patterns": [
+        "Can you recommend books on blockchain and cryptocurrency?",
+        "Best books on blockchain and cryptocurrency",
+        "Blockchain and cryptocurrency books"
+      ],
+      "responses": [
+        "Some recommended books on blockchain and cryptocurrency include 'The Basics of Bitcoins and Blockchains' by Antony Lewis, 'Cryptocurrency: How Bitcoin and Digital Money are Challenging the Global Economic Order' by Paul Vigna and Michael J. Casey, and 'Blockchain: The Insights You Need from Harvard Business Review' by Harvard Business Review.",
+        "Books on blockchain and cryptocurrency cover topics such as the history of cryptocurrency, the underlying technology of blockchain, and the future of digital currencies. Some popular choices include 'Digital Gold: Bitcoin and the Inside Story of the Misfits and Millionaires Trying to Reinvent Money' by Nathaniel Popper, 'Cryptoassets: The Innovative Investor's Guide to Bitcoin and Beyond' by Chris Burniske and Jack Tatar, and 'Bitcoin Billionaires: A True Story of Genius, Betrayal, and Redemption' by Ben Mezrich."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "books_blockchain_application",
+      "patterns": [
+        "Can you recommend books on blockchain application?",
+        "Best books on blockchain application",
+        "Blockchain application books"
+      ],
+      "responses": [
+        "Some recommended books on blockchain application include 'Blockchain Revolution: How the Technology Behind Bitcoin and Other Cryptocurrencies is Changing the World' by Don Tapscott and Alex Tapscott, 'The Business Blockchain: Promise, Practice, and Application of the Next Internet Technology' by William Mougayar, and 'Blockchain: The Insights You Need from Harvard Business Review' by Harvard Business Review.",
+        "Books on blockchain application explore the potential uses of blockchain technology in various industries and sectors. Some popular choices include 'Blockchain for Business: Discover How Blockchain Technology is Transforming the Business World' by J.F. Kitchin, 'Blockchain for Dummies' by Tiana Laurence, and 'Blockchain Basics: A Non-Technical Introduction in 25 Steps' by Daniel Drescher."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "books_blockchain_future",
+      "patterns": [
+        "Can you recommend books on the future of blockchain?",
+        "Best books on the future of blockchain",
+        "Blockchain future books"
+      ],
+      "responses": [
+        "Some recommended books on the future of blockchain include 'Blockchain Revolution: How the Technology Behind Bitcoin and Other Cryptocurrencies is Changing the World' by Don Tapscott and Alex Tapscott, 'The Truth Machine: The Blockchain and the Future of Everything' by Paul Vigna and Michael J. Casey, and 'The Blockchain and the New Architecture of Trust' by Kevin Werbach.",
+        "Books on the future of blockchain discuss the potential impact of blockchain technology on various aspects of society, economy, and technology. Some popular choices include 'Blockchain: Blueprint for a New Economy' by Melanie Swan, 'Blockchain: The Insights You Need from Harvard Business Review' by Harvard Business Review, and 'Blockchain Basics: A Non-Technical Introduction in 25 Steps' by Daniel Drescher."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "books_blockchain_regulation",
+      "patterns": [
+        "Can you recommend books on blockchain regulation?",
+        "Best books on blockchain regulation",
+        "Blockchain regulation books"
+      ],
+      "responses": [
+        "Some recommended books on blockchain regulation include 'Blockchain and the Law: The Rule of Code' by Primavera De Filippi and Aaron Wright, 'Regulating Blockchain: Techno-Social and Legal Challenges' by Philipp Hacker, and 'Blockchain and the Law: The Rule of Code' by Primavera De Filippi and Aaron Wright.",
+        "Books on blockchain regulation explore the legal and regulatory challenges posed by blockchain technology and digital currencies. Some popular choices include 'Blockchain and the Law: The Rule of Code' by Primavera De Filippi and Aaron Wright, 'Cryptocurrency: How Bitcoin and Digital Money are Challenging the Global Economic Order' by Paul Vigna and Michael J. Casey, and 'Blockchain Basics: A Non-Technical Introduction in 25 Steps' by Daniel Drescher."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "books_blockchain_impact",
+      "patterns": [
+        "Can you recommend books on the impact of blockchain?",
+        "Best books on the impact of blockchain",
+        "Blockchain impact books"
+      ],
+      "responses": [
+        "Some recommended books on the impact of blockchain include 'Blockchain Revolution: How the Technology Behind Bitcoin and Other Cryptocurrencies is Changing the World' by Don Tapscott and Alex Tapscott, 'The Business Blockchain: Promise, Practice, and Application of the Next Internet Technology' by William Mougayar, and 'The Blockchain and the New Architecture of Trust' by Kevin Werbach.",
+        "Books on the impact of blockchain discuss how blockchain technology is reshaping industries, economies, and societies. Some popular choices include 'The Truth Machine: The Blockchain and the Future of Everything' by Paul Vigna and Michael J. Casey, 'Blockchain for Business: Discover How Blockchain Technology is Transforming the Business World' by J.F. Kitchin, and 'Blockchain Basics: A Non-Technical Introduction in 25 Steps' by Daniel Drescher."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "books_blockchain_ethics",
+      "patterns": [
+        "Can you recommend books on blockchain ethics?",
+        "Best books on blockchain ethics",
+        "Blockchain ethics books"
+      ],
+      "responses": [
+        "Some recommended books on blockchain ethics include 'Blockchain and the Law: The Rule of Code' by Primavera De Filippi and Aaron Wright, 'Ethics of Big Data: Balancing Risk and Innovation' by Kord Davis and Doug Patterson, and 'Blockchain and the Law: The Rule of Code' by Primavera De Filippi and Aaron Wright.",
+        "Books on blockchain ethics explore the ethical implications of blockchain technology and digital currencies. Some popular choices include 'Blockchain and the Law: The Rule of Code' by Primavera De Filippi and Aaron Wright, 'Regulating Blockchain: Techno-Social and Legal Challenges' by Philipp Hacker, and 'Blockchain Basics: A Non-Technical Introduction in 25 Steps' by Daniel Drescher."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "greeting_hello",
+      "patterns": [
+        "Hello!",
+        "Hi there!",
+        "Hey!"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Hey! What can I do for you?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "greeting_good_morning",
+      "patterns": [
+        "Good morning!",
+        "Morning!",
+        "Have a great morning!"
+      ],
+      "responses": [
+        "Good morning! How can I assist you today?",
+        "Morning! What can I do for you this morning?",
+        "Have a great morning! How can I help you?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "greeting_good_afternoon",
+      "patterns": [
+        "Good afternoon!",
+        "Afternoon!",
+        "Have a great afternoon!"
+      ],
+      "responses": [
+        "Good afternoon! How can I assist you this afternoon?",
+        "Afternoon! What can I do for you today?",
+        "Have a great afternoon! How can I help you?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "greeting_good_evening",
+      "patterns": [
+        "Good evening!",
+        "Evening!",
+        "Have a great evening!"
+      ],
+      "responses": [
+        "Good evening! How can I assist you this evening?",
+        "Evening! What can I do for you tonight?",
+        "Have a great evening! How can I help you?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "greeting_nice_to_meet_you",
+      "patterns": [
+        "Nice to meet you!",
+        "Pleased to meet you!",
+        "Great to meet you!"
+      ],
+      "responses": [
+        "Nice to meet you too! How can I assist you?",
+        "Pleased to meet you! What can I do for you?",
+        "Great to meet you! How can I help you?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "greeting_welcome_back",
+      "patterns": [
+        "Welcome back!",
+        "Good to see you again!",
+        "Nice to have you back!"
+      ],
+      "responses": [
+        "Welcome back! How can I assist you today?",
+        "Good to see you again! What can I do for you?",
+        "Nice to have you back! How can I help you?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "greeting_how_are_you",
+      "patterns": [
+        "How are you?",
+        "How's it going?",
+        "How's your day?"
+      ],
+      "responses": [
+        "I'm doing well, thank you. How can I assist you?",
+        "I'm good, thank you. What can I do for you?",
+        "I'm having a great day, thanks. How can I help you?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "greeting_fine_thank_you",
+      "patterns": [
+        "I'm fine, thank you.",
+        "I'm good, thanks.",
+        "I'm doing well, thank you."
+      ],
+      "responses": [
+        "That's great to hear! How can I assist you?",
+        "Glad to hear that! What can I do for you?",
+        "Good to know! How can I help you?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "greeting_not_so_well",
+      "patterns": [
+        "Not so well.",
+        "Could be better.",
+        "Not great."
+      ],
+      "responses": [
+        "I'm sorry to hear that. How can I assist you?",
+        "I hope your day improves. What can I do for you?",
+        "I'm here to help. How can I assist you?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "greeting_how_can_i_help",
+      "patterns": [
+        "How can I help you?",
+        "What can I do for you?",
+        "How may I assist you?"
+      ],
+      "responses": [
+        "You can ask me anything. I'm here to help!",
+        "Feel free to tell me what you need. I'm here to assist you.",
+        "I'm here to help you with anything you need. Just let me know!"
+      ],
+      "context_set": ""
+    }
+  ]
+}
